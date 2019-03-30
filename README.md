@@ -31,7 +31,7 @@ To query the API with hash candidates, simply enter them into the URL in the fol
  ## Design aspects and considerations:
  
  #### Morphing
- Since this application currently uses only the most recent Bitcoin hash, the hash candidate order changes with every new Bitcoin block. Therefore, it is useful for estimation of the current block consensus, not for any historical verifications. Scanning Bitcoin hash history would open a possible bruteforce attack vector as miners could attempt to produce blocks that have the closest similarity ratio to a Bitcoin block in a particular moment in time.
+ Since this application currently uses only the most recent Bitcoin hash, the hash candidate order changes with every new Bitcoin block. Therefore, it is useful for estimation of the current block consensus, not for any historical verifications. Scanning Bitcoin hash history would open a possible bruteforce attack vector as miners could attempt to produce blocks that have the closest similarity ratio to a Bitcoin block at a particular block height.
   
  ## Notes:
  
