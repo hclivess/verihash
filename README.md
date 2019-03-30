@@ -33,6 +33,12 @@ To query the API with hash candidates, simply enter them into the URL in the fol
  #### Morphing
  Since this application currently uses only the most recent Bitcoin hash, the hash candidate order changes with every new Bitcoin block. Therefore, it is useful for estimation of the current block consensus, not for any historical verifications. Scanning Bitcoin hash history would open a possible bruteforce attack vector as miners could attempt to produce blocks that have the closest similarity ratio to a Bitcoin block at a particular block height.
   
+ #### Bitcoin forking
+As in case with Veriblock, a possible Bitcoin network split (forking) splits efficiency of this method by the number of forks.
+
+ #### Disqualification:
+ Not all nodes will have all the possible hash candidates at all times, so this mechanism works in a way opposing that of Veriblock. Instead of qualifying blocks, it disqualifies them from a given number of candidates. Not all nodes will know all hashes at all times, but there is always a clear resolution from any given number of them, progressively leading to the only possible candidate.
+  
  ## Notes:
  
  Unlike Veriblock, Verihash does not store any information onchain for Bitcoin or Veriblock and you do not have to pay any fees. Public blockchain.com API is used, but you can easily redirect it to your bitcoind to prevent a possible man-in-the middle attack or availability issues. 
