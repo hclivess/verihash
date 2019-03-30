@@ -23,13 +23,13 @@ To query the API with hash candidates, simply enter them into the URL in the fol
  ```
  python3 programmic.py
  ```
- ##Usecase:
+ ## Usecase:
  
  Verihash can be used to resolve network forks by comparing hashes of your favorite altcoin with security backed by Bitcoin hashrate. You can score hashes based on similarity to the Bitcoin main chain and easily evaluate the best candidate.
  
- ##Notes:
+ ## Notes:
  
- Unlike Veriblock, Verihash does not store any information onchain for Bitcoin or Veriblock and you do not have to pay any fees. Public blockchain.com API is used, but you can easily redirect it to your bitcoind. 
+ Unlike Veriblock, Verihash does not store any information onchain for Bitcoin or Veriblock and you do not have to pay any fees. Public blockchain.com API is used, but you can easily redirect it to your bitcoind to prevent a possible man-in-the middle attack or availability issues. 
  
  For your particular use, Verihash can be extended with data storage if needed, have hash rules linked to Bitcoin hashes of particular height with block time adjusted, etc. If you need any of these features, feel free to contact me at admin@bismuth.cz
  
