@@ -4,7 +4,7 @@ This is a lightweight Veriblock alternative which checks sets of hashes against 
 
 To run, simply start web.py
 ```python3 web.py```
-This will start a restful API on your local machine, port 9091
+This will start a restful API on your local machine, port ```9091```
 
 To query the API with hash candidates, simply enter them into the URL in the following format, delimited with a semicolon
 
