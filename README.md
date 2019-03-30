@@ -27,6 +27,12 @@ To query the API with hash candidates, simply enter them into the URL in the fol
  
  Verihash can be used to resolve network forks by comparing hashes of your favorite altcoin with security backed by Bitcoin hashrate. You can score hashes based on similarity to the Bitcoin main chain and easily evaluate the best candidate.
  
+ 
+ ## Design aspects and considerations:
+ 
+ #### Morphing
+ Since this application currently uses only the most recent Bitcoin hash, the hash candidate order changes with every new Bitcoin block. Therefore, it is useful for estimation of the current block consensus, not for any historical verifications. Scanning Bitcoin hash history would open a possible bruteforce attack vector.
+  
  ## Notes:
  
  Unlike Veriblock, Verihash does not store any information onchain for Bitcoin or Veriblock and you do not have to pay any fees. Public blockchain.com API is used, but you can easily redirect it to your bitcoind to prevent a possible man-in-the middle attack or availability issues. 
