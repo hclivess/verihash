@@ -36,7 +36,7 @@ To query the API with hash candidates, simply enter them into the URL in the fol
  #### Bitcoin forking
 As in case with Veriblock, a possible Bitcoin network split (forking) splits efficiency of this method by the number of forks.
 
- #### Disqualification:
+ #### Disqualification
  Not all nodes will have all the possible hash candidates at all times, so this mechanism works in a way opposing that of Veriblock. Instead of qualifying blocks, it disqualifies them from a given number of candidates. Not all nodes will know all hashes at all times, but there is always a clear resolution from any given number of them, progressively leading to the only possible candidate.
   
  ## Notes:
