@@ -1,4 +1,4 @@
-# verihash
+# Verihash
 
 This is a lightweight Veriblock alternative which checks sets of hashes against the current Bitcoin hash for fork resolution. Instead of saving data to the Bitcoin blockchain, it simply compares individual hashes to the latest Bitcoin hash and returns the best candidate.
 
