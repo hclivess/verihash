@@ -1,6 +1,9 @@
 # Verihash
 
-This is a lightweight Veriblock alternative which checks sets of hashes against the current Bitcoin hash for fork resolution. Instead of saving data to the Bitcoin blockchain, it simply compares individual hashes to the latest Bitcoin hash and returns the best candidate.
+**Work in progress**
+**Proof of concept**
+
+This is a lightweight Veriblock alternative which checks sets of hashes against the current Bitcoin hash for fork resolution. Instead of saving data to the Bitcoin blockchain, it simply compares individual hashes to the latest Bitcoin hash and returns the best candidate. _As of now, there is no protection against a 51% attack, which is the main goal of Veriblock. Such feature will likely require a form of data storage with some sort of authority management. See issue https://github.com/hclivess/verihash/issues/1_
 
 To run, simply start web.py
 ```python3 web.py```
