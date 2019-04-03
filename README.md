@@ -29,7 +29,7 @@ To query the API with hash candidates, simply enter them into the URL in the fol
  ```
  ## Usecase:
  
- Verihash can be used to resolve network forks by comparing hashes of your favorite altcoin with security backed by Bitcoin hashrate. You can score hashes based on similarity to the Bitcoin main chain and easily evaluate the best candidate.
+ Research into how verihash can be used to resolve network forks by comparing hashes of your favorite altcoin with security backed by Bitcoin hashrate. You can score hashes based on similarity to the Bitcoin main chain and easily evaluate the best candidate. There are unresolved security issues that currently render it ineffective.
  
  
  ## Design aspects and considerations:
